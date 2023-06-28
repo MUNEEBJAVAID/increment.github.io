@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+.conatiner{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit , minmax(150px,1fr));
+    width: 70%;
+    /* height: 20%; */
+}
+
+.class-container{
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.class-container i{
+    color: #fff;
+    
+}
+
+.class-container .counter{
+    font-size: 3em;
+    font-weight: 600;
+    color: yellow;
+    margin-top: 8px;
+}
+
+.class-container span{
+  color: #fff;
+}
